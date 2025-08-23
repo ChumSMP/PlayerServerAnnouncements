@@ -1,7 +1,0 @@
-name: playerChatMessages
-version: '1.2'
-main: com.mellurboo.playerchatmessages.PlayerChatMessages
-api-version: '1.20'
-commands:
-  playerChatMessages.reload:
-    description: Reloads config

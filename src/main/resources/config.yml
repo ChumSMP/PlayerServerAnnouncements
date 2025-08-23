@@ -1,7 +1,5 @@
 # %player%  Player name
-# %cause%   cause of death
-
-mvptag: "§x§F§F§B§0§6§6[§x§F§B§B§0§6§0M§x§F§8§B§0§5§AV§x§F§4§B§0§5§3P§x§F§0§B§0§4§D] "
+# %cause%  cause of death
 
 joinMessages:
   - "§x§F§F§B§0§6§6o§x§F§D§B§0§6§2h §x§F§A§B§0§5§En§x§F§8§B§0§5§Ao§x§F§5§B§0§5§5.§x§F§3§B§0§5§1.§x§F§0§B§0§4§D. %player% §x§F§F§B§0§6§6i§x§F§C§B§0§6§1s §x§F§9§B§0§5§Ch§x§F§6§B§0§5§7e§x§F§3§B§0§5§2r§x§F§0§B§0§4§De"
@@ -29,3 +27,7 @@ deathMessages:
   - "§x§F§C§0§0§0§0K§x§F§9§0§0§0§0e§x§F§6§0§0§0§0e§x§F§3§0§0§0§0p §x§F§0§0§0§0§0i§x§E§E§0§0§0§0n§x§E§B§0§0§0§0v§x§E§8§0§0§0§0e§x§E§5§0§0§0§0n§x§E§2§0§0§0§0t§x§D§F§0§0§0§0o§x§D§C§0§0§0§0r§x§D§9§0§0§0§0y §x§D§7§0§0§0§0i§x§D§4§0§0§0§0s §x§D§1§0§0§0§0N§x§C§E§0§0§0§0O§x§C§B§0§0§0§0T §x§C§8§0§0§0§0e§x§C§5§0§0§0§0n§x§C§2§0§0§0§0a§x§C§0§0§0§0§0b§x§B§D§0§0§0§0l§x§B§A§0§0§0§0e§x§B§7§0§0§0§0d§x§B§4§0§0§0§0 %cause%"
   - "§x§F§C§0§0§0§0W§x§F§5§0§0§0§0h§x§E§F§0§0§0§0a§x§E§8§0§0§0§0t §x§E§2§0§0§0§0a §x§D§B§0§0§0§0d§x§D§5§0§0§0§0u§x§C§E§0§0§0§0m§x§C§8§0§0§0§0b§x§C§1§0§0§0§0a§x§B§B§0§0§0§0s§x§B§4§0§0§0§0s %cause%"
   - "§x§F§C§0§0§0§0Y§x§F§6§0§0§0§0o§x§F§0§0§0§0§0u §x§E§A§0§0§0§0d§x§E§4§0§0§0§0i§x§D§E§0§0§0§0d §x§D§8§0§0§0§0n§x§D§2§0§0§0§0o§x§C§C§0§0§0§0t §x§C§6§0§0§0§0c§x§C§0§0§0§0§0o§x§B§A§0§0§0§0o§x§B§4§0§0§0§0k %cause%"
+
+messages:
+  - text: "§eHey! this server and a lot of its plugins are made by me solo, if you would like to help cover some overhead costs, i would love it if you visited our Ko-Fi page, https://ko-fi.com/mellurboo"
+    interval: 900

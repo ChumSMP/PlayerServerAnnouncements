@@ -23,11 +23,7 @@ public class JoinMessageListener implements Listener {
         FileConfiguration config = plugin.getConfig();
         List<String> joinMessages = config.getStringList("joinMessages");
         String message = getRandomMessage(joinMessages);
-        if (event.getPlayer().hasPermission("mvpperks.ismvp")){
-            Bukkit.broadcastMessage(message.replace("%player%", config.getString("mvptag") + event.getPlayer().getName()));
-        }else {
-            Bukkit.broadcastMessage(message.replace("%player%", event.getPlayer().getName()));
-        }
+        Bukkit.broadcastMessage(message.replace("%player%", event.getPlayer().getName()));
     }
 
     private String getRandomMessage(List<String> messages) {
